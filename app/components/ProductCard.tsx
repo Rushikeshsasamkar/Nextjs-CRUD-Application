@@ -1,9 +1,12 @@
 import React from 'react'
 import AddToCart from './AddToCart'
+import styles  from './ProductCard.module.css'
+
+
 
 const ProductCard = () => {
   return (
-    <div>
+    <div className='p-5 my-5 bg-orange-600 text-white text-xl'>
         <AddToCart/>
     </div>
   )
