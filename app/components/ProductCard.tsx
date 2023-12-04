@@ -6,7 +6,7 @@ import styles  from './ProductCard.module.css'
 
 const ProductCard = () => {
   return (
-    <div className='p-5 my-5 bg-orange-600 text-white text-xl'>
+    <div className='p-5 my-5'>
         <AddToCart/>
     </div>
   )
